@@ -18,6 +18,7 @@ var options = {
 	cert : fs.readFileSync('./cert/1557605_www.learningrtc.cn.pem') 
 }
 
+// 启动http（s）服务
 var https_server = https.createServer(options, app);
 https_server.listen(443, '0.0.0.0');
 
