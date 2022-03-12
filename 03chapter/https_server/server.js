@@ -3,6 +3,8 @@
 var https = require('https');
 var fs = require('fs');
 
+console.log("卧槽什么jb玩意")
+
 var options = {
   key  : fs.readFileSync('./cert/1557605_www.learningrtc.cn.key'),
   cert : fs.readFileSync('./cert/1557605_www.learningrtc.cn.pem')
